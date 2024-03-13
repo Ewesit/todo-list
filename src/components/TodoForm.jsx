@@ -1,10 +1,12 @@
 import React from "react";
 
-export const todo = () => {
+export const todoForm = () => {
     return(
-        <form className="TodoForm">
+        <form className="todoForm">
             <input type="text" className="todo-input" placeholder="What is the task today?" />
             <button type="submit" className="todo-btn"></button>
         </form>
     )
 }
+
+export default todoForm;

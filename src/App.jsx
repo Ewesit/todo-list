@@ -1,12 +1,13 @@
 
-import './App.css'
 import './index.css'
-import { todoWrapper } from './components/todoWrapper';
+import TodoWrapper from './components/TodoWrapper';
+import todoForm from './components/TodoForm';
+
 
 function App() {
   return(
     <div className='App'>
-      <todoWrapper />
+      <TodoWrapper />
       <div>
         <h1 className='text-6xl font-bold text-white-500'>My TODO List</h1>
 
