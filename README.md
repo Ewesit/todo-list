@@ -1,0 +1,6 @@
+After installation, I started creating the application
+1. install -i u uid-which will help us generate IDs for the project
+..........npm i u uid...................
+2. next install font awesome. Refer to the link below
+...............https://docs.fontawesome.com/web/use-with/react/.......................
+3. 
