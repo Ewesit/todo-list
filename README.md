@@ -17,5 +17,10 @@ After installation, I started creating the application
     }
 
 9. We need to pass value to the todo state. We can't keep the state here because other components will need to access the state as well.
-10. 
+10. Lets create that state in the parent component which is todoWrapper
+11. import useState in the todoWrapper component
+12. How to pass value from the TodoForm to the todowrapper, we have to use props..
+13. In TodoWrapper, add a property called addTodo = to a function called addTodo
+
+
 
