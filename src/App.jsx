@@ -8,7 +8,7 @@ function App() {
     <div className='App'>
 
       <TodoWrapper>
-        <h1 className="text-5xl font-bold text-white">My TODO List</h1>
+        <h1 className="text-5xl font-bold text-white mb-5">My TODO List</h1>
       </TodoWrapper>
       
       

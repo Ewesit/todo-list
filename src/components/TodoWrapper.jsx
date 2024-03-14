@@ -10,7 +10,7 @@ export const TodoWrapper = ({ children }) => {
         setTodos([...todos, {id: uuidv4(), task: todo, completed: false, isEditing: false}])
     }
     return(
-        <div className="TodoWrapper">
+        <div className="TodoWrapper container bg-blue-950 mt-20 p-8 rounded-md">
             {children}
             <TodoForm addTodo={addTodo} />
         </div>
