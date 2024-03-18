@@ -23,4 +23,6 @@ After installation, I started creating the application
 13. In TodoWrapper, add a property called addTodo = to a function called addTodo
 
 
+14. When I submit the form, I want the inserted value to disappear, value = {value}
+15. After we submit the form we want to clear the form, so we set value to be an empty string, setValue("")
 

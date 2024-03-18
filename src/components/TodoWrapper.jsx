@@ -8,6 +8,7 @@ export const TodoWrapper = ({ children }) => {
 
     const addTodo = todo => {
         setTodos([...todos, {id: uuidv4(), task: todo, completed: false, isEditing: false}])
+        console.log(todos)
     }
     return(
         <div className="TodoWrapper container bg-blue-950 mt-20 p-8 rounded-md">
