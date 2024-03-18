@@ -25,4 +25,8 @@ After installation, I started creating the application
 
 14. When I submit the form, I want the inserted value to disappear, value = {value}
 15. After we submit the form we want to clear the form, so we set value to be an empty string, setValue("")
+16. Now let's display the todos we've added.
+17. Go to Todo and give a classname of todo.
+
+
 

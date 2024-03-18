@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {TodoForm} from "./TodoForm";
 import { v4 as uuidv4 } from 'uuid';
+import Todo from "./Todo";
 uuidv4();
 
 export const TodoWrapper = ({ children }) => {
@@ -14,6 +15,10 @@ export const TodoWrapper = ({ children }) => {
         <div className="TodoWrapper container bg-blue-950 mt-20 p-8 rounded-md">
             {children}
             <TodoForm addTodo={addTodo} />
+            {todos.map(todo => (
+                <Todo key={todo.id} />
+            ))}
+            {/* <Todo /> */}
         </div>
     );
 }
