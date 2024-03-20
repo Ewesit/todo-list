@@ -1,21 +1,20 @@
 
+import React, { useState } from 'react';
+import data from './data.json';
+//components
 import './App.css'
 import './index.css'
-import {TodoWrapper} from './components/TodoWrapper';
+import Header from './Header';
 
 function App() {
-  return(
-    <div className='App'>
-
-      <TodoWrapper>
-        <h1 className="text-5xl font-bold text-white mb-5">My TODO List</h1>
-      </TodoWrapper>
-      
-      
-    </div>
-
-  );
-  
+  const [ toDoList, setToDoList ] = useState(data);
+ 
+ 
+ return (
+   <div className="App">
+     <Header />
+   </div>
+ );
 }
-
-export default App
+ 
+export default App;

@@ -27,6 +27,12 @@ After installation, I started creating the application
 15. After we submit the form we want to clear the form, so we set value to be an empty string, setValue("")
 16. Now let's display the todos we've added.
 17. Go to Todo and give a classname of todo.
+18. Mark TODO as done by greying out by going to todo.jsx
 
+
+
+1. Restart app
+2. in the data.json, add mock data to test app
+3. The next thing we need to do is test our ability to read a set of test data. Use useState() hook to wire up some local state in App.js.
 
 
