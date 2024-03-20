@@ -5,6 +5,8 @@ import data from './data.json';
 import './App.css'
 import './index.css'
 import Header from './Header';
+import ToDoList from './components/ToDoList';
+import ToDoList from './components/ToDo';
 
 function App() {
   const [ toDoList, setToDoList ] = useState(data);
@@ -13,6 +15,7 @@ function App() {
  return (
    <div className="App">
      <Header />
+     <ToDoList toDoList={toDoList}/>
    </div>
  );
 }
