@@ -6,7 +6,7 @@ import './App.css'
 import './index.css'
 import Header from './Header';
 import ToDoList from './components/ToDoList';
-import ToDoList from './components/ToDo';
+import ToDo from './components/ToDo';
 
 function App() {
   const [ toDoList, setToDoList ] = useState(data);
